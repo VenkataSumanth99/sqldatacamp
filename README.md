@@ -118,6 +118,8 @@ The `analysis.sql` file contains all SQL queries developed for this project. Eac
 
 If you have any questions or feedback, feel free to create an issue or reach out!
 
+![](https://github.com/najirh/fitpro-gym2/blob/main/Flipkart%20Project%20Schemas.png)
+
 ---
 
 ## Contact Me
