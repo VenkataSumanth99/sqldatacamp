@@ -65,6 +65,18 @@ The following queries were created to solve specific business questions. Each qu
 
 Additional aggregations and grouping:
 6. Count total visits made by each member.
+```sql
+CREATE TABLE shippings
+(
+shipping_id INT,	
+order_id	INT REFERENCES sales(order_id),
+shipping_date	DATE,
+return_date	 DATE,
+shipping_providers VARCHAR(55),	
+delivery_status VARCHAR(55)	
+);
+```
+
 7. Count members by membership type (e.g., Monthly, Weekly, Quarterly).
 8. Calculate the average age of members, grouped by membership type.
 9. Total visits for each visit date.
